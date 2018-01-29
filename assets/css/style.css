@@ -6,38 +6,76 @@ body {
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff; 
-    border: 5px;
-    border-color: #cccccc; 
-
-}
+  }
 
 nav {
-    padding: 20px 20px 20px 20px; 
-    margin-right: 155px; 
+    margin-right: 180px; 
     text-align: right; 
+    color: #777777; 
+    padding: 35px;  
 }
 
 .nav-bar {
     padding-right: 10px;
-}
+    font-size: 100%; 
+    }
 
 #myname {
     background-color: #4aaaa5; 
     color: #ffffff; 
-    padding: 20px 20px 20px 20px; 
+    padding: 30px 30px 30px 30px; 
     float: left; 
-    max-width: 245px; 
-    margin-left: 155px; 
-    max-height: 90px; 
+    max-width: 15%; 
+    margin-left: 155px;  
+    font-size: 1.5em; 
+   
 }
 
 section {
-    max-width: 960px; 
+    max-width: 960px;  
     margin-left: 155px; 
     clear: both; 
 }
 
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 125%; 
+    padding: 20px 20px 20px 20px; 
+}
+
+#aboutme {
+    max-width: 650px;
+    float: left; 
+    border: 1px;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    border: 1px solid #cccccc;
+    padding: 20px;
+    font-size: 1.5em; 
+    color: #4aaaa5; 
+}
+
+p {
+    font-size: .75em; 
+    color: #777777;
+    line-height: 1.6; 
+}
+
+.profilepic {
+    float: left;
+    width: 20%; 
+    height: 20%; 
+    margin-right: 20px; 
+}
+
 #connect{
+    float: right; 
+    max-width: 270px; 
+    margin: 50px -30px 50px -30px; 
+    border: 1px solid #cccccc; 
+    background-color: #ffffff; 
 
 }
 
@@ -48,6 +86,7 @@ section {
     width: 100%;
     background-color: #666666;
     color: #ffffff;
-    text-align: center
+    text-align: center;
+    padding: 20px 20px 20px 20px; 
 }
 
