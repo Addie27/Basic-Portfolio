@@ -61,42 +61,58 @@ section {
     float: left;
 }
 
-/* About Me*/
+/* Contact Form*/
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px; 
     padding: 20px 20px 20px 15px; 
     border-bottom: 2px solid #cccccc;
+    color: #4aaaa5; 
 }
 
 .wrapper1 {
-    max-width: 650px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777; 
+    width: 650px;
     float: left; 
     border: 1px;
     border-color: #cccccc;
     background-color: #ffffff;
     margin: 40px 20px 40px 0px;
     border: 1px solid #cccccc;
+    padding: 20px; 
+}
+
+.container {
+    border: 5px;
     padding: 20px;
-    color: #4aaaa5; 
 }
 
-p {
-    font-size: 18px; 
-    color: #777777;
-    line-height: 1.6;
-    margin-top: 20px; 
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #cccccc; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
 }
 
-.profilepic {
-    float: left;
-    width: 20%; 
-    height: 20%; 
-    margin-top: 20px; 
-    margin-right: 20px; 
+::placeholder {
+    color: #cccccc; 
+    font-size: 12px; 
 }
 
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
+}
 
 /* Connect with Me */
 .wrapper2 {
