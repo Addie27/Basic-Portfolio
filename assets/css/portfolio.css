@@ -61,7 +61,7 @@ section {
     float: left;
 }
 
-/* Contact Form*/
+/* Portfolio Listing*/
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 30px; 
@@ -86,32 +86,39 @@ h2 {
 .container {
     border: 5px;
     padding: 20px;
+    align-content: center; 
 }
 
-input[type=text], textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #cccccc; 
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px; 
-    resize: vertical;
+.porfolio {
+   float: left; 
 }
 
-::placeholder {
-    color: #cccccc; 
-    font-size: 12px; 
+.image {
+    float: left; 
+    position: relative; 
+    margin: 20px;  
+    width: 225px; 
 }
 
-input[type=submit] {
+.pimage {
     background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 12px 20px;
-    border: none;
+    color: #ffffff; 
+    height: 50px;
+    width: 225px;
+    text-align: center; 
+    padding: 18px; 
+    font-size: 15px; 
+    float: left; 
 }
 
-input[type=submit]:hover {
-    background-color: #777777;
+.pimage1 {
+    position: absolute; 
+    bottom: 0; 
+}
+
+.pimage2 {
+    position: absolute; 
+    bottom: 0; 
 }
 
 /* Connect with Me */
